@@ -27,10 +27,8 @@ public class Main {
         ArrayList<U2> listRocketU2Phase2 = simulation.loadU2(listPhase22);
 
 
-
         budgetOfU1Rocket = simulation.runSimulationU1(listRocketPhase1) + simulation.runSimulationU1(listRocketPhase2);
         budgetOfU2Rocket = simulation.runSimulationU2(listRocketU2Phase1) + simulation.runSimulationU2(listRocketU2Phase2);
-
 
 
 

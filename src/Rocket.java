@@ -2,7 +2,7 @@ public class Rocket extends Item implements SpaceShip {
     //maksymalna waga jaką może udźwignąc rakieta.
     private int maxWeight;
     //aktualna waga rakiety po załadunku.
-    private int currentWeight;
+    private int currentWeight = this.getWeight();
 
 //konstruktor rakiety.
     public Rocket(String name, int weight, int maxWeight) {
